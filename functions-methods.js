@@ -9,6 +9,18 @@
 // getEmailDomain("t.mellink@novi.nl") geeft novi.nl
 // getEmailDomain("a.wiersma@outlook.com") geeft outlook.com
 
+const domains = [
+    {email: "n.eeken@novi-education.nl", domain: "novi-education.nl"},
+    {email: "t.mellink@novi.nl", domain: "novi.nl"},
+    {email: "a.wiersma@outlook.com", domain: "outlook.com"}
+]
+function getEmailDomain(){
+return domains[0].domain
+}
+
+
+console.log(getEmailDomain("t.mellink@novi.nl"));
+
 
 
 
